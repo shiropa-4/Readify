@@ -1,0 +1,70 @@
+/* Container styling */
+.auth-container {
+  width: 650px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  background-color: #f8d3ef;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form inputs */
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Labels */
+.auth-container label {
+  display: block;
+  margin: 8px 0 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Submit button */
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #005fa3;
+}
+
+/* Link section */
+.auth-container .content {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.auth-container .content a {
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-container .content a:hover {
+  text-decoration: underline;
+}

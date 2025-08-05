@@ -1,0 +1,99 @@
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #555;
+  text-align: center;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.book-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  flex-shrink: 1;
+  text-align: center;
+  padding: 15px;
+}
+
+.book-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-info h4 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.book-info p {
+  color: #555;
+  font-weight: bold;
+}
+
+.pdf-link {
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background-color: #2b7a78;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #205e5a;
+}
+
+.wishlist-button {
+  background-color: #ebc6c2;
+  color: white;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.wishlist-button:hover {
+  background-color: #e65b50;
+}
+
+.buy-now-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #8fbbe7; /* Dodger Blue */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.buy-now-button:hover {
+  background-color: #005cbf; /* Darker Blue on hover */
+  transform: translateY(-2px);
+}
+
+.buy-now-button:active {
+  transform: translateY(0);
+}
+

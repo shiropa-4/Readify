@@ -1,0 +1,15 @@
+.logo-text-container {
+  text-align: left;
+  padding: 5px 0;
+  background-color: #eec7f7;
+  background-image: url("https://images.pexels.com/photos/7130498/pexels-photo-7130498.jpeg");
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-text {
+  font-family: 'Cinzel', serif; /* You can change this to another elegant font */
+  font-size: 36px;
+  color: #010d18;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
