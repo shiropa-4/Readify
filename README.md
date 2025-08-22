@@ -2,7 +2,9 @@
 
 **Readify** is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) based online bookstore prototype that allows users to explore books by category, view details, add to wishlist or cart, and register/login to save their interactions.
 
+> ⚠️ The complete project is available in the **master** branch. Please switch to the **master** branch to view the code.
 > ⚠️ This project is **not deployed** and currently runs locally.
+
 
 ---
 
